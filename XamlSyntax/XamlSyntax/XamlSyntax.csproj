@@ -42,6 +42,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\AbsoluteDemoPage.xaml.cs">
+      <DependentUpon>AbsoluteDemoPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\GridDemoPage.xaml.cs">
       <DependentUpon>GridDemoPage.xaml</DependentUpon>
     </Compile>
@@ -81,6 +84,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\GridDemoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\AbsoluteDemoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

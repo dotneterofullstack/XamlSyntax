@@ -6,4 +6,5 @@
              x:Class="XamlSyntax.MainPage">
     <views:PropertyElementsPage />
     <views:GridDemoPage />
+    <views:AbsoluteDemoPage />
 </TabbedPage>
